@@ -7,6 +7,7 @@ from subprocess import check_output
 home_wifi = "Wifi_1"
 work_wifi = "Wifi_2"
 token = "TOKEN_HERE"
+script_location = os.path.dirname(os.path.realpath(__file__))
 client = WebClient(token)
 wifi_interface = "wlp1s0"
 
@@ -20,7 +21,7 @@ def getSSID():
 
 
 def saveNewWifi(wifi_name):
-    file = open("wifi.txt", "w")
+    file = open(script_location + "/wifi.txt", "w")
     file.write(wifi_name)
     file.close()
 
@@ -35,7 +36,7 @@ def setNewStatus(emoji, message):
 
 
 wifi_name = getSSID()
-old_wifi_name = open("wifi.txt", "r").read()
+old_wifi_name = open(script_location + "/wifi.txt", "r").read()
 
 if wifi_name == old_wifi_name:
     print('Status change not required.')
