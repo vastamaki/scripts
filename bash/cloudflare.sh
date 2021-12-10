@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Cloudflare zone
-zone=
+zone=yourdomain.com
 # A record which will be updated
-dnsrecord=
+dnsrecord=sub.yourdomain.com
 
 # Credentials
-cloudflare_auth_email=
-cloudflare_auth_key=
+cloudflare_auth_email=john.doe@yourdomain.com
+cloudflare_auth_key=cloudflare_auth_key
 
 # Get the current external IP address
 ip=$(curl -s -X GET https://checkip.amazonaws.com)

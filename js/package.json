@@ -1,0 +1,20 @@
+{
+  "name": "hacking-scripts",
+  "version": "1.0.0",
+  "description": "hacking-scripts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vastamaki/hacking-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vastamaki/hacking-scripts/issues"
+  },
+  "homepage": "https://github.com/vastamaki/hacking-scripts#readme"
+}
