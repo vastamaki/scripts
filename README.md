@@ -5,6 +5,7 @@ This is a collection of scripts I wrote for my own use. They are not meant to be
 ## Bash
 
 - Update cloudflare subdomain to your current ip
+- Create new vlan interface on linux
 
 ## Go
 
@@ -12,8 +13,7 @@ This is a collection of scripts I wrote for my own use. They are not meant to be
 
 ## JavaScript
 
-- Get next route, if request returns JSON with next path, loop until the new path is not found
-- Plus numbers from the array, well I think the name describes it well?
+- Some random stuff, nothing special
 
 ## Python
 

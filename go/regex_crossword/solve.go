@@ -143,7 +143,7 @@ func Solve(rows, cols []string) (string, error) {
 			solution[i] = rune(start)
 			i--
 			if i < 0 {
-				return "", errors.New("No solution")
+				return "", errors.New("no solution")
 			}
 		} else {
 			i++
