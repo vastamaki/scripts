@@ -2,10 +2,10 @@ package main
 
 import (
 	"errors"
+	"fmt"
 	"log"
 	"regexp"
 	"regexp/syntax"
-	"fmt"
 )
 
 type set []int
